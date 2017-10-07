@@ -44,7 +44,6 @@
 #
 class updatereport (
 	String $contactname		= $updatereport::contactname,
-	String $contactmail		= $updatereport::contactmail
-) {
-
-}
+	String $contactmail		= $updatereport::contactmail,
+	Optional[Boolean] $reportalways	= undef,
+) { }
